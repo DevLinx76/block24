@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { puppyList } from './data.js';
 import './App.css';
 
-
 function App() {
   // 4. Using the `useState` Hook with Default Value
   const [puppies, setPuppies] = useState(puppyList);
@@ -13,7 +12,6 @@ function App() {
 
   // 3. Logging `puppyList` to the Console
   console.log(puppies);
-
 
 
   // 5. Handle Click Events
